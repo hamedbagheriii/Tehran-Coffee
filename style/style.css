@@ -17,6 +17,16 @@ body {
 .offcanvasStyle {
   background-color: transparent;
 }
+.offcanvasStyle .divider-nav {
+  border-bottom: 1px solid white;
+  width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .offcanvasStyle .divider-nav {
+    width: auto;
+    border-bottom: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .offcanvasStyle {
