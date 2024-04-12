@@ -249,11 +249,16 @@ body{
       background: #211a1a;
       margin-top: -10px;
     }
+
+  }
+
+  .weblogTitle{
+    text-align: center;
   }
 
   @media screen and (min-width:768px) {
     .weblogData{
-      max-width: 350px;
+      max-width: 320px;
     }
   }
   @media screen and (min-width:1200px) {
@@ -261,7 +266,7 @@ body{
       max-width: 250px;
 
       .card-body .span{
-        margin-bottom: 25px;
+        margin-bottom: 20px;
       }
     }
   }
