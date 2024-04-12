@@ -87,12 +87,12 @@ body{
     background-color: $redColor;
     max-width: 700px;
 
-    .content-menu{
+  .content-menu{
     margin-top: 35px;
     background-color: #211a1a;
     }
 
-    .category{
+  .category{
     margin-top: 30px;
     
     .text-RED{
@@ -104,6 +104,9 @@ body{
     }
   }
     
+  .LoadingContent{
+    color: white;
+  }
 }
 
 // ! slider plogin
@@ -233,6 +236,34 @@ body{
   
   .owl-nav button:hover {
     color: black !important;
+  }
+
+}
+
+// ! weblog
+.weblog{
+  .weblogData{
+    background-color:$redColor;
+
+    .card-body{
+      background: #211a1a;
+      margin-top: -10px;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .weblogData{
+      max-width: 350px;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .weblogData{
+      max-width: 250px;
+
+      .card-body .span{
+        margin-bottom: 25px;
+      }
+    }
   }
 
 }

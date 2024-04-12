@@ -82,6 +82,9 @@ body {
 .menu .category a {
   text-decoration: none;
 }
+.menu .LoadingContent {
+  color: white;
+}
 
 .owl-carousel .card-header-custom {
   /* background: #fff; */
@@ -184,6 +187,27 @@ body {
 }
 .owl-carousel .owl-nav button:hover {
   color: black !important;
+}
+
+.weblog .weblogData {
+  background-color: rgba(255, 0, 0, 0.723);
+}
+.weblog .weblogData .card-body {
+  background: #211a1a;
+  margin-top: -10px;
+}
+@media screen and (min-width: 768px) {
+  .weblog .weblogData {
+    max-width: 350px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .weblog .weblogData {
+    max-width: 250px;
+  }
+  .weblog .weblogData .card-body .span {
+    margin-bottom: 25px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
