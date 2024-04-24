@@ -1,5 +1,3 @@
-function main(){
-
 // ! slider ploign
 $(document).ready()
 {
@@ -8,7 +6,7 @@ $(document).ready()
         items: 4,
         rtl: true,
         margin: 15,
-        nav: false,
+        nav: true,
         loop: false,
         responsive: {
             0: {
@@ -23,6 +21,16 @@ $(document).ready()
         }
     });
 }
+
+// ! change icon in slider prev & next
+function changeIcon(){
+    const prev =document.querySelector(".owl-prev")
+    const next =document.querySelector(".owl-next")
+
+    next.innerHTML=`<i class="bi bi-caret-left-fill text-dark mt-1"></i>`;
+    prev.innerHTML=`<i class="bi bi-caret-right-fill text-dark mt-1"></i>`;
+}
+changeIcon()
 
 // ! set defult content
 function setDefult(){
@@ -133,7 +141,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -202,7 +210,7 @@ function getData(){
 
                 // set className in Element
                 div1.className="col-12";
-                if((item.id==1) && (item.body=="NULL")){
+                if( (item.body=="NULL")){
                     div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                 }                
                 else{
@@ -271,7 +279,7 @@ function getData(){
   
                   // set className in Element
                   div1.className="col-12";
-                  if((item.id==1) && (item.body=="NULL")){
+                  if( (item.body=="NULL")){
                       div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                   }                
                   else{
@@ -340,7 +348,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -409,7 +417,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -476,7 +484,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -544,7 +552,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -612,7 +620,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -680,7 +688,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -748,7 +756,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -816,7 +824,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -884,7 +892,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -952,7 +960,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -1020,7 +1028,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -1088,7 +1096,7 @@ function getData(){
     
                     // set className in Element
                     div1.className="col-12";
-                    if((item.id==1) && (item.body=="NULL")){
+                    if( (item.body=="NULL")){
                         div2.className="d-flex justify-content-between px-3 pt-4 pb-3";
                     }                
                     else{
@@ -1151,6 +1159,3 @@ getData()
 
 
 
-
-}
-main()
