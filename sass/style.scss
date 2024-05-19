@@ -13,16 +13,43 @@ body{
     font-family: "vazir-bold";
 }
 
+.shadowDiv{
+  box-shadow: 0px 0px 15px rgba(250, 59, 59, 0.546);
+}
+
+.divHoverShadow{
+  transition: all 0.25s ease-in-out;
+}
+
+.divHoverShadow:hover{
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.264);
+}
+
 // ! navbar 
 .navbar{
     background:$redColor;
+    max-width: 1200px;
 
     .offcanvas-body{
         .list-item{
             font-size: 19px;
         }
     }
-}
+
+    .textShadow{
+      color: #fff;
+    }
+
+    .textShadow:hover{
+      color: #1e1d1d;
+      text-shadow: #00000080 0 0 7px;
+    }
+
+  }
+
+  .textShadow{
+    text-shadow: #d9d9d9 0 0 7px;
+  }
 
 // ! offcanvas
 .offcanvasStyle{
@@ -180,7 +207,7 @@ body{
     border-top: 0px;
     padding: 0px 5px !important;
     text-align: center;
-    // background: transparent !important;
+    background: transparent !important;
   }
   
   .panel-footer-custom h4 {
@@ -306,4 +333,14 @@ body{
     }
   }
 
+}
+
+// ! footer
+.footer{
+  background-color: $redColor;
+  max-width: 1200px;
+
+  .bg-styles{
+    background-color: #211a1a;
+  }
 }

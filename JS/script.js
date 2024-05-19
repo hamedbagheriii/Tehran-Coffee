@@ -29,12 +29,13 @@ function changeIcon(){
 
     next.innerHTML=`<i class="bi bi-caret-left-fill text-dark mt-1"></i>`;
     prev.innerHTML=`<i class="bi bi-caret-right-fill text-dark mt-1"></i>`;
+
 }
 changeIcon()
 
 // ! set defult content
 function setDefult(){
-    fetch("/DATA/data.json").then((data)=>{
+    fetch("DATA/data.json").then((data)=>{
         return data.json();
     }).then((dataJs)=>{
         const resData=dataJs[0];
@@ -123,7 +124,7 @@ function getData(){
         setTimeout(() => {
             allItem.innerHTML="";
         
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[0];
@@ -190,7 +191,7 @@ function getData(){
       
       setTimeout(() => {
         allItem.innerHTML="";
-        fetch("/DATA/data.json").then((data)=>{
+        fetch("DATA/data.json").then((data)=>{
             return data.json();
         }).then((dataJs)=>{
             const resData=dataJs[1];
@@ -259,7 +260,7 @@ function getData(){
 
       setTimeout(() => {
           allItem.innerHTML="";
-          fetch("/DATA/data.json").then((data)=>{
+          fetch("DATA/data.json").then((data)=>{
               return data.json();
           }).then((dataJs)=>{
               const resData=dataJs[2];
@@ -328,7 +329,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[3];
@@ -397,7 +398,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[4];
@@ -464,7 +465,7 @@ function getData(){
         </div>`;
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[5];
@@ -532,7 +533,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[6];
@@ -600,7 +601,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[7];
@@ -668,7 +669,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[8];
@@ -736,7 +737,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[9];
@@ -804,7 +805,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[10];
@@ -872,7 +873,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[11];
@@ -940,7 +941,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[12];
@@ -1008,7 +1009,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[13];
@@ -1076,7 +1077,7 @@ function getData(){
 
         setTimeout(() => {
             allItem.innerHTML="";
-            fetch("/DATA/data.json").then((data)=>{
+            fetch("DATA/data.json").then((data)=>{
                 return data.json();
             }).then((dataJs)=>{
                 const resData=dataJs[14];
